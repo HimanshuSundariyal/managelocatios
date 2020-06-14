@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+    min-height: 100vh;
+    padding: 0;
   }
+body{
+    background-color:#F0F1F3!important
+}
+div#root {
+    background: #F0F1F3;
+}
+.table_row.top{font-weight: bold;}
+.table_row {
+    box-shadow: 0px 0px 4px #9E9E9E;
+    padding: 4px 2px;
+    border-radius: 9px;
+    background: #fff;
+    margin-bottom: 7px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.pagenation {
+    box-shadow: 0px 0px 4px #9E9E9E;
+    padding: 4px 2px;
+    border-radius: 9px;
+    margin-top: 14px;
+    background: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+.pagenation p{
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-bottom: 0px;
+}
+.table_row.row i {
+    cursor: pointer;
+}
+.addlocation_form {
+    box-shadow: 0px 0px 4px #9E9E9E;
+    background: #fff;
+    padding: 12px;
+    margin-top: 7%;
+    margin-bottom: 70px;
+}
+span.error {
+    color: red;
+    font-style: italic;
+    font-size: 14px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.facilitname_popup .modal-dialog {
+    min-width: 700px;
+}
+.facilitname_popup .applybutton{
+    font-size:12px
 }
